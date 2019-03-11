@@ -3,12 +3,12 @@ import random
 def gerarLista():
     user_input = input("Qual o tamanho da Lista a ser gerada? ")
     n = int(user_input)
-    S = []
+    lista = []
     for i in range(n):
-        S.append(random.randint(0, n))
+        lista.append(random.randint(0, n))
 
-    print("Lista gerada: ", S)
-    return S
+    print("Lista gerada: ", lista)
+    return lista
 
 def search(lista):
 
